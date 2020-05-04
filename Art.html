@@ -1,0 +1,297 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <title>Ethan McIntosh</title>
+
+    <style>
+      
+      .dborder{
+        border: 1px dashed grey
+      }
+      #navbar{
+        position: fixed;
+        z-index: 100;
+        top: 0px;
+        
+      }
+      @media (min-width: 650px) { 
+        .nhdn{
+          display: none;
+        }
+      }
+      @media (max-width: 650px) {
+        .hdn{
+          display: none;
+        }
+      }
+      #logo{
+        width: 110px;
+        height: 80px;
+        margin-left: 15px
+
+      }
+      li a{
+        color: 2F6D76
+      }
+      #fade{
+        margin-top: 85px
+      }
+      @media(min-width:800px){
+        #fade{
+          width: 45%
+        }
+      }
+      @media(max-width: 800px){
+        #fade{
+          width: 70%
+        }
+      }
+      @media(min-width:800px){
+        #outings{
+          width: 45%;
+        }
+      }
+      @media(max-width: 800px){
+        #outings{
+          width: 70%
+        }
+      }
+      @media(min-width:800px){
+        #awards{
+          width: 45%;
+        }
+      }
+      @media(max-width: 800px){
+        #awards{
+          width: 70%
+        }
+      }
+      #awards{
+        padding-bottom: 15px;
+        margin-bottom: 10px
+      }
+
+
+
+@font-face { font-family: Oswald; src: url('oswald.regular.TTF'); } 
+	
+	h1, h2, h3, h4, h5, h6, p, li{
+	font-family: Oswald;
+	}
+	h1, h2, h3, h4, h6, a{
+	color:#2F6D76;
+	}
+	p{
+	color:#C8EBE7;
+	}
+	
+
+
+.sidenav1 {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 50px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 91px; /* Stay at the top */
+  right: 0;
+  background-color: #2F6D76; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 0px;
+}
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 50px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 91px; /* Stay at the top */
+  left: 0;
+  background-color: #2F6D76; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* Style page content */
+.main1 {
+  margin-right: 20px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+.main {
+  margin-left: 20px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+    </style>
+
+  </head>
+  
+ <body style="background-color:black;">
+
+    <div style="background-color:black;" id="navbar" class=" container-fluid row align-center">
+
+     <a class="navbar-brand" href="EthanMcIntosh.html"><img id="logo" src="https://lh3.googleusercontent.com/CCSoW54eMowd8gjLRmRIp_ke4PrxKuu4eCSHPC58lswacKNVL6HQKN3CeF1UQOGpAHBniJw97c3HZS-rl07482uCntDRd95K1Q45KK_OuKBfh2DXP-C9RcVoFZf6sTs7RfQXJWpFZ8HOMF71Wc54e6OSvRlj85c9UMIiFOoJ5YixRWS8t703ppV7bRT6lusSWgCGFfR9VC5pKjpxIbNhIprU5bp6b4lErLqGgIPt5W9OD0Tcl-VxnQBMdvAIaenDC32IX3EM1XNGW7RNNnm1qvbs1ec_zKHmkLfwVJBLjhvqYGy5Rmk1oO5zJfpmbcFZusencbePDdSn44DLGq9_wLtD9TyCxQQBCcnE5gw4UrKuGU4qgWnQdDApaf3AvikJlMQkHosvnjSnqS0JfK3jTSKgfylQqlCJnSS0uigZTDKr1pGbvNthXa7HEU17QfzBIbsbjYSR0jMXYlfs2_jpMP6t4wkCt_1nBx40r_RsVsLFRkrmqZa9EE-1ZgYGyfeUduKz_6ttuI29_FaDZ411RQQojrgjW9ly1oyUCfOS0OBiqKCT_qSJOzRFSMbVWlLnuKIy_fUKX0E9qeU_iN6dMbVBTRA857IwgdzIokbUYg5wYbQBCr07GbRB8gbg5O2VzaFwSj80kjDLVY5so5SVwmin6GoaB8j2HM1YI-fgPvy6cOfi38KnPh7qCjukQ6w=w1020-h801-no"></a>
+
+      <ul class="nav nav-tabs justify-content-center align-items-center"
+	  style="border-bottom: none;">
+
+        <li class="nav-item hdn">
+          <a class="nav-link" href="Education.html">Education</a>
+        </li>
+        <li class="nav-item hdn ">
+          <a class="nav-link " href="Art.html">Art</a>
+        </li>
+        <li class="nav-item hdn ">
+          <a class="nav-link " href="Family.html">Family</a>
+        </li>
+        <li class="nav-item hdn">
+          <a class="nav-link " href="Hobbies.html">Interests & Hobbies</a>
+        </li>
+        <li class="nav-item dropdown nhdn">
+            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Navigation
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="Education.html">Education</a>
+              <a class="dropdown-item" href="Art.html">Art</a>
+              <a class="dropdown-item" href="Family.html">Family</a>
+              <a class="dropdown-item" href="Hobbies.html">Interests & Hobbies</a>
+            </div>
+          </li>
+
+      </ul>
+
+    </div>
+
+		<div class="sidenav">
+
+		</div>
+
+		<!-- Page content -->
+		<div class="main">
+		 
+		<div class="sidenav1">
+
+		</div>
+
+		<!-- Page content -->
+		<div class="main1">
+		
+
+
+	  
+	  
+	  
+    <div style="z-index: -3" id="fade" class=" container">
+
+      </div>
+    </div>
+	
+	
+	
+<hr/>
+      
+	  
+      <h3 class="" style="text-align: center;padding-top:20px;"><a style="color: black; " href=""></a><a href="https://www.instagram.com/sketching_ginger/ ">My Art Gallery Instagram</h3></a>
+
+      <div id="outings" class="container ">
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://instagram.fluk1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/16110974_243251272781322_3971594376445952000_n.jpg?_nc_ht=instagram.fluk1-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=qYLTc1R4N3sAX8oN3hN&oh=3f65322f9c0a48fe3d0c6623d0fe9a2a&oe=5ED339D0
+			  " class="d-block w-100" alt="...">
+            </div>
+		 <div class="carousel-inner">
+            <div class="carousel-item">
+              <img src="https://instagram.fluk1-1.fna.fbcdn.net/v/t51.2885-15/e35/c0.113.1080.1080a/s320x320/18722533_334680376947288_1181262069647802368_n.jpg?_nc_ht=instagram.fluk1-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=OKpyTjSO5ZoAX-2jvt7&oh=6dd225e5b83516802bbf02cda3f5841c&oe=5ED4DA3D
+			  " class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://instagram.fluk1-1.fna.fbcdn.net/v/t51.2885-15/e35/c0.135.1080.1080a/s320x320/27879280_153139175349289_3778414774765748224_n.jpg?_nc_ht=instagram.fluk1-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=_tnKvdOP5UQAX9zwJGC&oh=737a02768261029a775df419737987dd&oe=5ED252F0
+			  " class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://instagram.fluk1-1.fna.fbcdn.net/v/t51.2885-15/e35/c0.57.461.461a/s320x320/28156449_2049071852038307_7245065509966708736_n.jpg?_nc_ht=instagram.fluk1-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=atTR-O7lumQAX_gNFv8&oh=d914b5bd5ea223518b9127997cc48dd3&oe=5ED2E541
+            " class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://instagram.fluk1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/54514031_341809876456745_4653997661845670299_n.jpg?_nc_ht=instagram.fluk1-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=i9Py-aCJed4AX9rNFrC&oh=4195e27aee9bf2ecae15a8435c10ea0a&oe=5ED58A39
+			  " class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://instagram.fluk1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/54511873_2049310545168335_4005127864517542840_n.jpg?_nc_ht=instagram.fluk1-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=smXoHlDnpuYAX8_EzXk&oh=a0fcba5fd0362ac441af67c104dad709&oe=5ED3BF1E
+			  " class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://instagram.fluk1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/66303316_2353736384706851_8506260134895338622_n.jpg?_nc_ht=instagram.fluk1-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=VRUwai963BIAX-FmjN-&oh=b98e6f23b2b99e093bea1a32453a9411&oe=5ED2BFA9
+			  " class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://instagram.fluk1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/53536660_176186803369175_5463800383888300430_n.jpg?_nc_ht=instagram.fluk1-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=H2-gXH3v-XEAX98bQSE&oh=b3671ea8f703445b767e47a03dccd480&oe=5ED4F8DE
+			  " class="d-block w-100" alt="...">
+            </div>
+			<div class="carousel-item">
+              <img src="https://lh3.googleusercontent.com/CCSoW54eMowd8gjLRmRIp_ke4PrxKuu4eCSHPC58lswacKNVL6HQKN3CeF1UQOGpAHBniJw97c3HZS-rl07482uCntDRd95K1Q45KK_OuKBfh2DXP-C9RcVoFZf6sTs7RfQXJWpFZ8HOMF71Wc54e6OSvRlj85c9UMIiFOoJ5YixRWS8t703ppV7bRT6lusSWgCGFfR9VC5pKjpxIbNhIprU5bp6b4lErLqGgIPt5W9OD0Tcl-VxnQBMdvAIaenDC32IX3EM1XNGW7RNNnm1qvbs1ec_zKHmkLfwVJBLjhvqYGy5Rmk1oO5zJfpmbcFZusencbePDdSn44DLGq9_wLtD9TyCxQQBCcnE5gw4UrKuGU4qgWnQdDApaf3AvikJlMQkHosvnjSnqS0JfK3jTSKgfylQqlCJnSS0uigZTDKr1pGbvNthXa7HEU17QfzBIbsbjYSR0jMXYlfs2_jpMP6t4wkCt_1nBx40r_RsVsLFRkrmqZa9EE-1ZgYGyfeUduKz_6ttuI29_FaDZ411RQQojrgjW9ly1oyUCfOS0OBiqKCT_qSJOzRFSMbVWlLnuKIy_fUKX0E9qeU_iN6dMbVBTRA857IwgdzIokbUYg5wYbQBCr07GbRB8gbg5O2VzaFwSj80kjDLVY5so5SVwmin6GoaB8j2HM1YI-fgPvy6cOfi38KnPh7qCjukQ6w=w1020-h801-no
+			  " class="d-block w-100" alt="...">
+            </div>
+			
+			
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+<p class="">For more, please feel free to check out my instagram <a href="https://www.instagram.com/sketching_ginger/ ">@sketching_ginger</a>.
+		</p>
+      </div>
+
+
+      
+        </div>
+
+      </div>
+
+
+      </div>
+	 
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
